@@ -14,5 +14,5 @@ max_sections = data["sectionCount"][book - 1]
 section = random.randint(1, max_sections)
 
 quote = data['meditations'][f"{book}"][section]
-print(quote, f"Book {book}, {section}.")
+print(quote, f"Book {book}, Section {section}.")
 # %%
